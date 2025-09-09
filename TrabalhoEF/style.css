@@ -1,0 +1,33 @@
+body{
+    background-image: url(papel\ de\ parede.jpg);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.titulo, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.769);
+}
+
+#imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+}
+
+.paragrafo{
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.211);
+    border-radius: 5px;
+}
+
+h1, h2, h3, p, li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
